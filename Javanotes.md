@@ -1,9 +1,8 @@
 # JAVA 
 ## About java
 
+
 ![Alt text](<java image.png>)
-
-
 1. A sample java code
 
 ```  java
