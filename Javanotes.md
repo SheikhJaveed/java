@@ -52,8 +52,28 @@ sorted in a way that uses an algorithm based on the alphabetical order used in d
 
 ## parseInt()
 The method parseInt() belongs to the Integer class which is under java. lang package. It is used to parse the string value as a signed decimal value. It is used in Java for converting a string value to an integer by using the method parseInt().
+
 ## toString()
 The toString() method of the Object class returns the string representation of an object in Java. If we print any object, the Java Compiler internally invokes the toString() method on that object. The value returned by the toString() method is then printed.
 
 ALWAYS REMEMBER : Java Strings are Immutable.
 
+## Types of Synchronization
+There are two synchronizations in Java mentioned below:
+
+Process Synchronization
+Thread Synchronization
+1. Process Synchronization in Java
+Process Synchronization is a technique used to coordinate the execution of multiple processes. It ensures that the shared resources are safe and in order.
+
+2. Thread Synchronization in Java
+Thread Synchronization is used to coordinate and ordering of the execution of the threads in a multi-threaded program. There are two types of thread synchronization are mentioned below:
+
+Mutual Exclusive
+Cooperation (Inter-thread communication in Java)
+Mutual Exclusive
+Mutual Exclusive helps keep threads from interfering with one another while sharing data. There are three types of Mutual Exclusive mentioned below:
+
+Synchronized method.
+Synchronized block.
+Static synchronization.

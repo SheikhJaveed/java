@@ -1,4 +1,4 @@
-public class string5 {
+public class string5{
     public static boolean[] map =   new boolean[26];  //because English alphabet has 26 letters
     public static void removeDuplicates(String str,int idx,String newString){
         if(idx == str.length()){

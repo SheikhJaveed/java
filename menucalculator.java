@@ -16,7 +16,7 @@ public class menucalculator {
             break;
             case 4: if(b==0){
                 System.out.println("Invalid division");
-            }else{
+            }   else{
                 System.out.println("division is"+a/b);
             }
             break;
