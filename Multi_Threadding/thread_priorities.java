@@ -20,6 +20,7 @@ public class thread_priorities {
         t5.setPriority(Thread.MAX_PRIORITY);
         t1.setPriority(Thread.MIN_PRIORITY);
         t2.setPriority(Thread.NORM_PRIORITY);
+        t3.setPriority(Thread.NORM_PRIORITY+1); //we can add/subtract only for norm priority
         t1.start();
         t2.start();
         t3.start();

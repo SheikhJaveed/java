@@ -24,7 +24,7 @@ public class Synchronized_function {
     public static void main(String args[])
     {
         // only one object
-        final Test obj = new Test();
+        Test obj = new Test();
 
         Thread a = new Thread() {
             public void run() { obj.test_function(15); }
