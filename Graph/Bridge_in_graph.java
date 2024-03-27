@@ -8,7 +8,7 @@ public class Bridge_in_graph {
         int src;
         int dest;
 
-        public Edge(int s, int d) {
+        public Edge(int s, int d){
             this.src = s;
             this.dest = d;
         }

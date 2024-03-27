@@ -1,5 +1,5 @@
 import java.util.*;
-
+import java.util.Stack;
 public class Kosaraju_algo {
     static class Edge {
         int src;
